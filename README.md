@@ -13,10 +13,11 @@
 Пример строки в логе:
 
 ```json
-{"@timestamp": "2024-07-22T10:20:00", "url": "/api/test", "response_time": 0.2}
+{"@timestamp": "2024-07-22T10:20:00","url": "/api/test","response_time": 0.2}"
+```
 
+## ⚙️ Использование
 
-⚙️ Использование
 bash
 python main.py --file file1.log file2.log --report average
 
@@ -27,18 +28,16 @@ python main.py --file file1.log file2.log --report average
 Необязательный аргумент:
 --date: дата начала логов в формате YYYY-MM-DD (например: --date 2024-07-20)
 
+## 📋 Пример вывода
 
-📋 Пример вывода
-bash
-№   URL                   Average   Amount
-------------------------------------------
-1   /api/context/...         0.02     43928
-2   /api/homeworks/...       0.09     55312
-3   /api/specializations/... 0.05      8335
-4   /api/users/...           0.07      1447
-5   /api/challenges/...      0.08      1476
-
-
-📦 Требования
-Python 3.8+
 ```
+1 /api/context/... 0.02 43928
+2 /api/homeworks/... 0.09 55312
+3 /api/specializations/... 0.05 8335
+4 /api/users/... 0.07 1447
+5 /api/challenges/... 0.08 1476
+```
+
+## 📦 Требования
+
+Python 3.8+
