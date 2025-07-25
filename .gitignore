@@ -63,3 +63,8 @@ dmypy.json
 # Windows
 Thumbs.db
 ehthumbs.db
+
+# Virtual environment
+venv/
+env/
+ENV/
