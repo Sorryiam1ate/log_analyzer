@@ -1,0 +1,7 @@
+¹    URL                               Average     Amount
+---------------------------------------------------------
+1    /api/context/...                     0.02      43928
+2    /api/homeworks/...                   0.09      55312
+3    /api/specializations/...             0.05       8335
+4    /api/users/...                       0.07       1447
+5    /api/challenges/...                  0.08       1476
